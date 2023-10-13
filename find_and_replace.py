@@ -2,8 +2,8 @@ import re, os, csv
 
 
 script_dicrecotry = os.path.dirname(os.path.abspath(__file__))
-output_file_path = os.path.join(script_dicrecotry, 'mergedfixed.tmx')
-input_file_path = os.path.join(script_dicrecotry, 'merged.tmx')
+output_file_path = os.path.join(script_dicrecotry, 'fixedTM.tmx')
+input_file_path = os.path.join(script_dicrecotry, 'TM.tmx')
 term_file_path = os.path.join(script_dicrecotry, 'TermsToBeFixed.csv')
 
 
